@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def vehicle_tools(task, stage, mode, input):
     """
     VEHICLETOOLS calculate often-used parameters for a given stage and mode

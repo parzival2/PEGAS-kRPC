@@ -1,7 +1,7 @@
-import Global
 import numpy as np
+import init_simulation
 
-mu = Global.mu
+mu = init_simulation.mu
 
 # Most of this code is based on the following document
 # https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740018034.pdf

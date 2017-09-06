@@ -1,10 +1,10 @@
 import numpy as np
-import Global
+import init_simulation
 import unified_powered_flight_guidance as upfg
 
-mu = Global.mu
-R = Global.R
-period = Global.period
+mu = init_simulation.mu
+R = init_simulation.R
+period = init_simulation.period
 
 
 class LaunchSite:

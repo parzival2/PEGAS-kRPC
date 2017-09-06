@@ -1,13 +1,12 @@
-import Global
 import numpy as np
-
+import init_simulation
 from conic_state_extrapolation_routine import conic_state_extrapolation_routine, CSERState
 from get_angle_from_frame import get_angle_from_frame
 from get_thrust import get_thrust
 from rodrigues import rodrigues
 from unit import unit
 
-g0 = Global.g0
+g0 = init_simulation.g0
 
 # Most of this code is based on the following document
 # https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740004402.pdf

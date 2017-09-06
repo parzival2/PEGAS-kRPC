@@ -1,8 +1,8 @@
-import Global
+import init_simulation
 
 from approx_from_curve import approx_from_curve
 
-g0 = Global.g0
+g0 = init_simulation.g0
 
 
 def get_thrust(engines, pressure, time):
