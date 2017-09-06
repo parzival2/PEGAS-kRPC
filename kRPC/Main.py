@@ -203,8 +203,8 @@ vehicle = vehicle_from_vessel(vessel, 90)
 # Target orbit parameters
 apoapsis = 250
 periapsis = 170
-inclination = 28.61 # 28.61 == 23.45+5.16
-lan = 0 # Set this to None if you don't care
+inclination = 28.61  # 28.61 = 23.45+5.16
+lan = 0  # Set this to None if you don't care
 
 print('Launching into orbit with apoapsis of %fkm, periapsis %fkm, inclination %f and LAN %s degrees' %
       (apoapsis, periapsis, inclination, lan))
